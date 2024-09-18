@@ -42,18 +42,22 @@ export default function MessageBar({ id }: { id: string }): React.JSX.Element {
 			});
 		// setText("");
 	};
-	const handleUpload = (result: { info: { secure_url: string } }): void => {
+	const handleUpload = (result: any): void => {
 		if (loading) return;
-		setLoading(true);
-		void axios
+		if (result?.info?.secure_url) {
+		  setLoading(true);
+		  void axios
 			.post("/api/messages", {
-				conversationId: id,
-				image: result.info.secure_url,
+			  conversationId: id,
+			  image: result.info.secure_url,
 			})
 			.then(() => {
-				setLoading(false);
+			  setLoading(false);
 			});
-	};
+		} else {
+		  console.error("Upload failed or secure_url is missing.");
+		}
+	  };
 	const handleEmojiMenu = (): void => {
 		setShowEmoji((prev) => !prev);
 	};
