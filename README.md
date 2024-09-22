@@ -1,8 +1,8 @@
 # Messaging Service Prototype
 
-# Name - Abdul Mannan
-# University - Indian Institute of Technology (Indian School of Mines) Dhanbad
-# Department - Environmental Engineering
+## Name - Abdul Mannan
+## University - Indian Institute of Technology (Indian School of Mines) Dhanbad
+## Department - Environmental Engineering
 
 ## Table of Contents
 
@@ -119,30 +119,32 @@ Ensure you have the following installed on your machine:
    npm install
 
 3. **Create a .env file**
-
-DATABASE_URL=
-NEXTAUTH_SECRET=
-GITHUB_ID=
-GITHUB_SECRET=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-OAUTH_CLIENT_ID=
-OAUTH_CLIENT_SECRET=
-OAUTH_REFRESH_TOKEN=
-MAIL_USERNAME=
-MAIL_PASSWORD=
-NEXTAUTH_URL=
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
-NEXT_PUBLIC_PUSHER_APP_KEY=
-PUSHER_APP_ID=
-PUSHER_SECRET=
-NEXT_PUBLIC_PUSHER_CLUSTER=
-NEXT_PUBLIC_ZEGOCLOUD_APP_ID=
-NEXT_PUBLIC_ZEGOCLOUD_SERVER_SECRET=
-NEXT_PUBLIC_BASE_URL=
+   ```bash
+    DATABASE_URL=
+    NEXTAUTH_SECRET=
+    GITHUB_ID=
+    GITHUB_SECRET=
+    GOOGLE_CLIENT_ID=
+    GOOGLE_CLIENT_SECRET=
+    OAUTH_CLIENT_ID=
+    OAUTH_CLIENT_SECRET=
+    OAUTH_REFRESH_TOKEN=
+    MAIL_USERNAME=
+    MAIL_PASSWORD=
+    NEXTAUTH_URL=
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+    NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
+    NEXT_PUBLIC_PUSHER_APP_KEY=
+    PUSHER_APP_ID=
+    PUSHER_SECRET=
+    NEXT_PUBLIC_PUSHER_CLUSTER=
+    NEXT_PUBLIC_ZEGOCLOUD_APP_ID=
+    NEXT_PUBLIC_ZEGOCLOUD_SERVER_SECRET=
+    NEXT_PUBLIC_BASE_URL=
 
 4. **Start the Development Server**
      ```bash
    npm run dev
+
+
   
