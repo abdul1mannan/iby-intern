@@ -15,11 +15,7 @@
   - [Installation](#installation)
   - [Environment Variables](#environment-variables)
   - [Running the Application](#running-the-application)
-- [Real-Time Communication](#real-time-communication)
-- [Security Considerations](#security-considerations)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Overview
 
@@ -118,7 +114,7 @@ Ensure you have the following installed on your machine:
     ```bash
    npm install
 
-3. **Create a .env file**
+### environment-variables
    ```bash
     DATABASE_URL=
     NEXTAUTH_SECRET=
@@ -141,10 +137,10 @@ Ensure you have the following installed on your machine:
     NEXT_PUBLIC_ZEGOCLOUD_APP_ID=
     NEXT_PUBLIC_ZEGOCLOUD_SERVER_SECRET=
     NEXT_PUBLIC_BASE_URL=
-
-4. **Start the Development Server**
-     ```bash
-   npm run dev
+```
+### running-the-application
+   ```bash
+    npm run dev
 
 
   
